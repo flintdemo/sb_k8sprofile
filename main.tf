@@ -45,7 +45,7 @@ module "infra_config_policy" {
   vc_portgroup     = [local.portgroup]
   vc_datastore     = local.datastore
   vc_cluster       = local.vspherecluster
-  vc_resource_pool = local.resource_pool
+  #vc_resource_pool = local.resource_pool
   vc_password      = local.password
   org_name         = local.organization
 }
